@@ -1,5 +1,5 @@
 // schema for tasky_application
-
+// import 
 const taskySchema = new Schema({
      user:{
             firstname: {
@@ -32,6 +32,8 @@ const taskySchema = new Schema({
             },
         },
   
+
+        
         task:[{
             task_id:{
                 type:String,
@@ -49,12 +51,3 @@ const taskySchema = new Schema({
 
         }]
 });
-
-// "tasks": [
-//     {
-//       "task_id": "a5uAojyBREOtmb",
-//       "task_name": "task1",
-//       "deadline": "2022-09-14T10:46:34.000Z",
-//       "isComplete": false
-//     }
-//   ]
